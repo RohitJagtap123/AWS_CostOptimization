@@ -3,7 +3,6 @@
 Managing AWS EBS snapshots manually can lead to **unnecessary storage costs** if old, unused snapshots accumulate. This project automates the cleanup process using **AWS Lambda, EC2, and SNS**, ensuring cost optimization while keeping you notified before deletion.
 
 ---
-
 ## 🚀 Features
 
 ✅ **Automatic EBS Snapshot Cleanup** – Deletes snapshots not linked to active EC2 instances.  
@@ -11,7 +10,7 @@ Managing AWS EBS snapshots manually can lead to **unnecessary storage costs** if
 ✅ **Cost Optimization** – Reduces AWS storage costs by removing unused snapshots.  
 ✅ **Serverless Architecture** – Uses **AWS Lambda** for automation, minimizing infrastructure costs.  
 ✅ **Scheduled Execution** – Uses **Amazon EventBridge** to trigger the function automatically.  
-✅ **Customizable** – Modify retention policies and notification settings as needed.  
+✅ **Customizable** – Modify retention policies and notification settings as needed.
 
 ---
 
